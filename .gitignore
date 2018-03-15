@@ -50,6 +50,7 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
+Binaries/
 
 # Builds
 Build/*
@@ -58,6 +59,7 @@ Build/*
 !Build/*/
 Build/*/**
 !Build/*/PakBlacklist*.txt
+Build/
 
 # Don't ignore icon files in Build
 !Build/**/*.ico
@@ -70,9 +72,11 @@ Saved/*
 .vs/*
 Debug/*
 Model/*
+Saved/
 
 # Compiled source files for the engine to use
 Intermediate/*
+Intermediate/
 
 # Cache files for the editor to use
 DerivedDataCache/*
@@ -111,3 +115,4 @@ FuckYea/Config/DefaultEngine.ini
 FuckYea/Content/StarterContent/Materials/M_Wood_Oak.uasset
 FuckYea/Content/StarterContent/Architecture/Floor_400x400.uasset
 FuckYea/Saved/Logs/FuckYea.log
+FuckYea/Saved/Backup/BP_Barrackade_2018-03-14-18-18-42.uasset
